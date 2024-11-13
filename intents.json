@@ -3,81 +3,122 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "Mumeze mute?",
+        "Hari umuntu uhari?",
+        "Mwaramutse",
+        "Umunsi mwiza"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Mwaramutse! Nigute nshobora kubafasha mubibazo by'ubuzima bwawe uyu munsi?",
+        "Muraho, nizere ko mumerewe neza. Nigute nshobora kubafasha?",
+        "Mwaramutse, ni ayahe makuru ajyanye n'ubuzima mukeneye kumenya?",
+        "Muraho! Nigute nshobora gushyigikira imibereho yanyu myiza uyu munsi?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["murabeho", "Nahubutaha", "mugire ibihe byiza"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Witondere ubuzima bwawe, tuzakubona vuba!",
+        "Gumana ubuzima bwiza, ugire umunsi mwiza!",
+        "Murabeho! mukomeze kugira ubuzima buzira umuze"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
+      "patterns": ["murakoze", "ndagushimiye", "byafashije cyane", "urakoze cyane"],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Nishimiye ko nabashije kubafasha",
+        "Namwe murakoze, mukomeze mugire ubuzima bwiza",
+        "Nshimishijwe no kuba nabashije gusubiza ibibazo mwari mufite"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "symptoms",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What symptoms should I look out for?",
+        "Can you tell me common symptoms?",
+        "What are the warning signs of illness?",
+        "What are the symptoms of malaria?",
+        "How do I know if I have a fever?",
+        "What causes a headache?",
+        "What are the signs of diabetes?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Malaria often presents with fever, chills, and flu-like symptoms.",
+        "Headaches can be caused by stress, dehydration, or underlying health conditions.",
+        "Diabetes symptoms may include frequent urination, excessive thirst, and fatigue.",
+        "For fever, look for high body temperature, sweating, and chills.",
+        "Tell me more about your symptoms, and I can help provide more specific information."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "treatment",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How can I treat a fever?",
+        "What should I do for a headache?",
+        "What is the treatment for malaria?",
+        "How can I manage diabetes?",
+        "What can I take for stomach ache?",
+        "How to treat diarrhoea?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "For fever, rest and hydration are key. You can also use over-the-counter fever reducers.",
+        "Headaches often improve with rest, hydration, and sometimes pain relievers.",
+        "Malaria treatment usually involves prescription antimalarial drugs. Consult a healthcare provider.",
+        "Diabetes management includes a balanced diet, regular exercise, and medication as prescribed by a doctor.",
+        "A mild stomach ache can often be relieved with hydration and a bland diet. Seek medical advice for severe pain.",
+        "Diarrhoea can be managed by staying hydrated and using oral rehydration solutions."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "prevention",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "How can I prevent malaria?",
+        "What can I do to avoid getting the flu?",
+        "How do I prevent diabetes?",
+        "What are the best ways to prevent a headache?",
+        "How to prevent diarrhoea?",
+        "How can I manage asthma?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Prevent malaria by using mosquito nets, repellents, and taking preventive medication.",
+        "Get vaccinated for the flu annually and practice good hygiene.",
+        "Preventing diabetes includes maintaining a healthy weight, regular exercise, and a balanced diet.",
+        "Avoid headaches by staying hydrated, reducing stress, and getting enough sleep.",
+        "Diarrhoea prevention includes drinking clean water and practicing good food hygiene.",
+        "Asthma can be managed by avoiding triggers, using prescribed inhalers, and following a treatment plan."
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "What should I know about pregnancy?",
+        "What are the early signs of pregnancy?",
+        "How can I take care of myself during pregnancy?",
+        "What foods should I avoid while pregnant?",
+        "What are common pregnancy symptoms?"
+      ],
+      "responses": [
+        "Early signs of pregnancy include missed periods, nausea, and fatigue.",
+        "During pregnancy, ensure you have a balanced diet, stay hydrated, and attend regular check-ups.",
+        "Avoid raw or undercooked foods, high-mercury fish, and unpasteurized dairy products.",
+        "Common symptoms of pregnancy include morning sickness, breast tenderness, and mood swings."
+      ]
+    },
+    {
+      "tag": "contraception",
+      "patterns": [
+        "What are my options for contraception?",
+        "Can you tell me about birth control?",
+        "How does contraception work?",
+        "What is the best contraception for me?"
+      ],
+      "responses": [
+        "Contraceptive options include birth control pills, IUDs, condoms, and hormonal patches.",
+        "The best contraception depends on your health, lifestyle, and needs. Consult a healthcare provider for personalized advice.",
+        "Contraception works by preventing ovulation or creating barriers to fertilization.",
+        "Let me know if you'd like more details on specific contraceptive methods."
       ]
     }
   ]
