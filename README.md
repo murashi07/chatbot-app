@@ -48,4 +48,8 @@ the following command to test it in the console.
 > (venv) python chat.py
 ```
 
-To run the project from the terminal `python app.py`.
+To run the project from the terminal.
+
+```
+> (venv) python app.py
+```
