@@ -30,6 +30,7 @@ Install nltk package
 > (venv) python
 >>> import nltk
 >>> nltk.download('punkt')
+>>> quit()
 ```
 
 Modify `intents.json` with different intents and responses for your Chatbot
@@ -47,4 +48,4 @@ the following command to test it in the console.
 > (venv) python chat.py
 ```
 
-Now for deployment follow my tutorial to implement `app.py` and `app.js`.
+To run the project from the terminal `python app.py`.
